@@ -1,0 +1,40 @@
+<!-- public/index.html -->
+<!--------------------------
+Author : Saifur Rehman
+---------------------------->
+
+<!-- public/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SecureCipher</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Secure Cipher</h1>
+
+    <div class="input-section">
+      <label for="textToEncrypt">Text to Encrypt:</label>
+      <input type="text" id="textToEncrypt" name="textToEncrypt">
+      <button onclick="encryptText()">Encrypt</button>
+    </div>
+
+    <div class="input-section">
+      <label for="textToDecrypt">Text to Decrypt:</label>
+      <input type="text" id="textToDecrypt" name="textToDecrypt">
+      <button onclick="decryptText()">Decrypt</button>
+    </div>
+
+    <div class="results">
+      <h2>Results:</h2>
+      <div id="encryptionResult"></div>
+      <div id="decryptionResult"></div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

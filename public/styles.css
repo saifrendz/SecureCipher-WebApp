@@ -1,0 +1,63 @@
+/* public/styles.css */
+/*----------------------
+ Author : Saifur Rehman 
+-----------------------*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  h1 {
+    text-align: center;
+    color: #760808;
+}
+  
+  .input-section {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  input {
+    width: calc(100% - 16px);
+    padding: 8px;
+    margin-bottom: 12px;
+  }
+  
+  button {
+    padding: 8px 30px;
+    background-color:  #05666d;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #068989;
+  }
+
+  .input-section button {
+    align-self: center;
+  }
+  
+  .results {
+    margin-top: 20px;
+  }
